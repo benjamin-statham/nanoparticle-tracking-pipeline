@@ -1,4 +1,4 @@
-\# Nanoparticle Tracking Pipeline
+# Nanoparticle Tracking Pipeline
 
 
 
@@ -10,7 +10,7 @@ Developed as part of a BEng Engineering Project at Durham University (2025–202
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -30,7 +30,7 @@ Both notebooks are designed to run in Google Colab with GPU runtime enabled.
 
 
 
-\## Pretrained Model
+## Pretrained Model
 
 
 
@@ -38,11 +38,11 @@ A trained YOLOv8m model is provided in this repository (`nanoparticle\_detector\
 
 
 
-\## Usage
+## Usage
 
 
 
-\### 1. Training Pipeline
+### 1. Training Pipeline
 
 `nanoparticle\_detection\_training\_pipeline.ipynb`
 
@@ -52,7 +52,7 @@ Prepares annotated microscopy data and fine-tunes a YOLOv8m model. Edit the conf
 
 
 
-\### 2. Inference \& Analysis Pipeline
+### 2. Inference \& Analysis Pipeline
 
 `nanoparticle\_tracking\_analysis\_pipeline.ipynb`
 
@@ -66,7 +66,7 @@ Raw `.nd2` videos must be preprocessed in Fiji/ImageJ before use — see the pre
 
 
 
-\## Output
+## Output
 
 
 
