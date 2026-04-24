@@ -34,7 +34,7 @@ Both notebooks are designed to run in Google Colab with GPU runtime enabled.
 
 
 
-A trained YOLOv8m model is provided in this repository (`nanoparticle\_detector\_best.pt`). Set `MODEL\_PATH` in the inference pipeline configuration cell to point to this file.
+A trained YOLOv8m model is provided in this repository (`nanoparticle_detector_best.pt`). Set `MODEL_PATH` in the inference pipeline configuration cell to point to this file.
 
 
 
@@ -44,7 +44,7 @@ A trained YOLOv8m model is provided in this repository (`nanoparticle\_detector\
 
 ### 1. Training Pipeline
 
-`nanoparticle\_detection\_training\_pipeline.ipynb`
+`nanoparticle_detection_training_pipeline.ipynb`
 
 
 
@@ -52,9 +52,9 @@ Prepares annotated microscopy data and fine-tunes a YOLOv8m model. Edit the conf
 
 
 
-### 2. Inference \& Analysis Pipeline
+### 2. Inference & Analysis Pipeline
 
-`nanoparticle\_tracking\_analysis\_pipeline.ipynb`
+`nanoparticle_tracking_analysis_pipeline.ipynb`
 
 
 
@@ -70,5 +70,5 @@ Raw `.nd2` videos must be preprocessed in Fiji/ImageJ before use — see the pre
 
 
 
-Results are saved to the directory specified in `OUTPUT\_DIR`, including tracking CSVs, verification videos, and flow analysis plots.
+Results are saved to the directory specified in `OUTPUT_DIR`, including tracking CSVs, verification videos, and flow analysis plots.
 
